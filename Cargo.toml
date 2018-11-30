@@ -5,4 +5,9 @@ authors = ["Sean <seanchen11235@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+rand = "0.6.1"
 romio = "0.3.0-alpha.1"
+
+[dependencies.futures]
+version = "0.3.0-alpha.10"
+package = "futures-preview"
